@@ -26,4 +26,9 @@ export class CalculadoraComponent {
     if (this.numero2 == 0) alert('No se puede realizar la división.');
     else this.resultado = this.numero1 / this.numero2;
   }
+  iniciarCampos() {
+    this.numero1 = 0;
+    this.numero2 = 0;
+    this.resultado = 0;
+  }
 }
